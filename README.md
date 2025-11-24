@@ -28,7 +28,7 @@ Este proyecto implementa métodos **no paramétricos** (ECDF, Bootstrap, Monte C
 
 ## 1. Modelo determinístico
 
-\[ROP = \bar{L}\,\bar{D}\]
+$$ROP = \bar{L}\,\bar{D}$$
 
 - \(\bar{L}\): lead time promedio  
 - \(\bar{D}\): demanda promedio por unidad de tiempo  
@@ -38,10 +38,7 @@ Este proyecto implementa métodos **no paramétricos** (ECDF, Bootstrap, Monte C
 
 ## 2. Modelo probabilístico normal
 
-\[
-ROP = \bar{L}\bar{D} + 
-z \sqrt{\bar{L}\sigma_D^2 + \bar{D}^2\sigma_L^2}
-\]
+$$ROP = \bar{L}\bar{D} + z \sqrt{\bar{L}\sigma_D^2 + \bar{D}^2\sigma_L^2}$$
 
 donde:
 
@@ -63,21 +60,15 @@ Cuando demanda y lead time **no** son normales, se usan métodos empíricos.
 
 La demanda durante el lead time se define como:
 
-\[
-D_{L,i} = L_i \cdot D_i
-\]
+$$D_{L,i} = L_i \cdot D_i$$
 
 La ECDF es:
 
-\[
-\hat{F}_n(x) = \frac{1}{n}\sum_{i=1}^{n}1\{D_{L,i} \le x\}
-\]
+$$\hat{F}_n(x) = \frac{1}{n}\sum_{i=1}^{n}1\{D_{L,i} \le x\}$$
 
 El ROP es el **cuantil empírico**:
 
-\[
-ROP = \hat{F}_n^{-1}(SL)
-\]
+$$ROP = \hat{F}_n^{-1}(SL)$$
 
 ---
 
@@ -87,27 +78,19 @@ ROP = \hat{F}_n^{-1}(SL)
 
 Demanda:
 
-\[
-d_1^{*},\dots,d_B^{*} \sim \{d_1,\dots,d_n\}
-\]
+$$d_1^{*},\dots,d_B^{*} \sim \{d_1,\dots,d_n\}$$
 
 Lead time:
 
-\[
-l_1^{*},\dots,l_B^{*} \sim \{l_1,\dots,l_m\}
-\]
+$$l_1^{*},\dots,l_B^{*} \sim \{l_1,\dots,l_m\}$$
 
 Demanda durante el LT simulada:
 
-\[
-D_{L,i}^{*} = d_i^{*}\,l_i^{*}
-\]
+$$D_{L,i}^{*} = d_i^{*}\,l_i^{*}$$
 
 ROP no paramétrico:
 
-\[
-ROP = \text{quantile}(D_L^{*}, SL)
-\]
+$$ROP = \text{quantile}(D_L^{*}, SL)$$
 
 ---
 
