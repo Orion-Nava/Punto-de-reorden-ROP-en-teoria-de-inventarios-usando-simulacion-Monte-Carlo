@@ -6,21 +6,36 @@ Los modelos clásicos del punto de reorden (ROP) en teoría de inventarios asume
 El **punto de reorden (ROP)** es el nivel de inventario en el que debe emitirse un nuevo pedido para reabastecer antes de que el stock se agote, considerando el tiempo que tarda en llegar el pedido.
 
 **Modelo determinístico**
+
 Si no consideramos incertidumbre en el modelo:
 
-$$ROP = L \times d$$
+$$ROP = \bar{L} \times \bar{D}$$
 
 donde:
+
 ROP = Punto de reorden
-L = Tiempo de entrega de pedidos (*lead time*)
-D = Demanda por unidad de tiempo
+
+- $\bar{L}$ = Tiempo de entrega promedio de pedidos (*lead time*)
+
+- $\bar{D}$ = Demanda promedio por unidad de tiempo
+
 
 **Modelo probabilístico**
+
 Si consideramos incertidumbre en el modelo:
 
 $$ROP = \hat{D}_L + SS$$
 
-$$ROP = \hat{L} \times \hat{D} + z\sqrt{\hat{L} \sigma_{D}^2 + \hat{D}^2 \sigma_{L}^2}$$
+$$ROP = \bar{L} \times \bar{D} + z\sqrt{\bar{L} \sigma_{D}^2 + \bar{D}^2 \sigma_{L}^2}$$
+
+- $\bar{L}$ = Tiempo de entrega promedio de pedidos (*lead time*)
+
+- $\bar{D}$ = Demanda promedio por unidad de tiempo
+
+- $\sigma_{D}^{2}$ = Varianza de la demanda
+
+- $\sigma_{L}^2$ = Varianza de los tiempos de entrega
+
 
 
 
