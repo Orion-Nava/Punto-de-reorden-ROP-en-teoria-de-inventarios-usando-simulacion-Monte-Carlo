@@ -82,7 +82,7 @@ $$d_{1}^{*},\dots,d_{B}^{*} \sim \{d_1,\dots,d_n\}$$
 
 Lead time:
 
-$$l_1^{*},\dots,l_B^{*} \sim \{l_1,\dots,l_m\}$$
+$$l_l^{*},\dots,l_B^{*} \sim \{l_1,\dots,l_m\}$$
 
 Demanda durante el LT simulada:
 
