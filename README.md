@@ -78,7 +78,7 @@ $$ROP = \hat{F}_n^{-1}(SL)$$
 
 Demanda:
 
-$$d_{1}^{*},\dots,d_{B}^{*} \sim \{d_1,\dots,d_n\}$$
+$$d_1^{\ast}, \dots, d_B^{\ast} \sim \{d_1, \dots, d_n\}$$
 
 Lead time:
 
@@ -86,10 +86,9 @@ $$
 l_1^{\ast}, \dots, l_B^{\ast} \sim \{l_1, \dots, l_m\}
 $$
 
-
 Demanda durante el LT simulada:
 
-$$D_{L,i}^{*} = d_i^{*}\,l_i^{*}$$
+$$D_{L,i}^{\ast} = d_i^{\ast} \cdot l_i^{\ast}$$
 
 ROP no paramétrico:
 
