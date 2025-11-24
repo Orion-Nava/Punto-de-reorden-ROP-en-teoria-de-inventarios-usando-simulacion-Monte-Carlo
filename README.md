@@ -78,7 +78,7 @@ $$ROP = \hat{F}_n^{-1}(SL)$$
 
 Demanda:
 
-$$d_1^{*},\dots,d_B^{*} \sim \{d_1,\dots,d_n\}$$
+$$d_1^*,\dots,d_B^{*} \sim \{d_1,\dots,d_n\}$$
 
 Lead time:
 
