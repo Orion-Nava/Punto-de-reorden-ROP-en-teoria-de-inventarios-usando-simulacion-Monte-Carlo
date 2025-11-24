@@ -82,10 +82,8 @@ $$d_{1}^{*},\dots,d_{B}^{*} \sim \{d_1,\dots,d_n\}$$
 
 Lead time:
 
-Lead time:
-
 $$
-l_1^{\ast},\; \dots,\; l_B^{\ast}\;\text{\;distributed as\;}\left\{l_1,\dots,l_m\right\}
+l_1^{\ast}, \dots, l_B^{\ast} \sim \{l_1, \dots, l_m\}
 $$
 
 
