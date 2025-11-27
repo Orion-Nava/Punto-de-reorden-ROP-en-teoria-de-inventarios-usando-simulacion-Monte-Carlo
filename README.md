@@ -4,11 +4,11 @@
 
 ## Descripción del proyecto
 
-En la teoría clásica de inventarios, el **punto de reorden (ROP)** indica el nivel de inventario en el que debe emitirse un pedido para evitar quiebres de stock durante el **tiempo de entrega** (*lead time*).
+En la teoría clásica de inventarios, el **punto de reorden (ROP)** indica el nivel de inventario en el que debe emitirse un pedido para evitar quiebres de stock durante el tiempo de entrega (*lead time*).
 
-Los modelos tradicionales del ROP asumen distribuciones **normales** tanto para la demanda como para el tiempo de entrega. En la práctica, esto rara vez ocurre: la demanda puede ser lognormal, gamma, Poisson, o presentar estacionalidad y tendencia; mientras que los tiempos de entrega suelen tener colas largas (Gamma, Lognormal, Weibull).
+Los modelos tradicionales del ROP asumen distribuciones normales tanto para la demanda como para el tiempo de entrega. En la práctica, esto rara vez ocurre: la demanda puede ser lognormal, gamma, Poisson, o presentar estacionalidad y tendencia; mientras que los tiempos de entrega suelen tener colas largas (Gamma, Lognormal, Weibull).
 
-Este proyecto implementa métodos **no paramétricos** (ECDF, Bootstrap, Monte Carlo) para calcular el ROP sin asumir normalidad.
+Este proyecto implementa métodos no paramétricos (ECDF, Bootstrap, Monte Carlo) para calcular el ROP sin asumir normalidad.
 
 ---
 
